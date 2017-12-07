@@ -9,6 +9,10 @@
 #import <UIKit/UIKit.h>
 #import "YTCellProtocol.h"
 
+
+/**
+ 用来做分隔的cell
+ */
 @interface GapCell : UITableViewCell <YTCellProtocol>
 
 @end

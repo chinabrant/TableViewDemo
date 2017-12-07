@@ -16,7 +16,7 @@
 /**
  通过 view model 来配置cell, table view 的数据源里面装的都会是 view model
  
- @param viewModel: cell 对应的 view model
+ @param viewModel cell 对应的 view model
  */
 - (void)configCellWithViewModel:(id)viewModel;
 

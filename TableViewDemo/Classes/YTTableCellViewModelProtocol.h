@@ -30,7 +30,12 @@
  */
 + (NSString *)identifier;
 
-@optional;
+
+/**
+ 注册cell
+
+ @param table 要注册到的table view
+ */
 + (void)registerFor:(UITableView *)table;
 
 @end
