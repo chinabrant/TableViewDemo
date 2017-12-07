@@ -18,7 +18,10 @@
 - (void)configCellWithViewModel:(id)viewModel {
     GapCellViewModel *vm = viewModel;
     
-    self.contentView.backgroundColor = vm.backgroundColor;
+    if (vm.backgroundColor) {
+        
+        self.contentView.backgroundColor = vm.backgroundColor;
+    }
 }
 
 - (void)awakeFromNib {
